@@ -1,0 +1,12 @@
+/*
+ Theme Name:   Divi Child Theme
+ Description:  Child Theme for ElegantThemes' Divi
+ Author:       Thomas Couillard
+ Author URI:   https://tclrd.net
+ Template:     divi
+ Version:      0.0.1
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+ Text Domain:  divi-child
+*/
+@import "./css/main.css";
