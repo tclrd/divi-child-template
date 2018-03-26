@@ -11,12 +11,11 @@ function divi_child() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'divi-child' );
-?>
 
-<?php
+
 /* Pulling Modules */
-include './php/wp-admin.php';
-include './php/shortcodes/main.php';
-include './php/custom-post-types.php';
-include './php/custom-fields.php';
-?>
+require_once( __DIR__ . '/php/wp-admin.php');
+require_once( __DIR__ . '/php/shortcodes/main.php');
+require_once( __DIR__ . '/php/custom-post-types.php');
+require_once( __DIR__ . '/php/custom-fields.php');
+

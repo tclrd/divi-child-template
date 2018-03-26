@@ -2,5 +2,5 @@
 /*
   Shortcodes master for importing
 */
-include '';
+// require_once( __DIR__ . '/php/shortcodes/example.php');
 ?>
